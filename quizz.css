@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to right top, #c4e7c6, #b6d5a6, #acc386, #a6af65, #a39b45, #aa9a39, #b1992b, #b9981a, #caac17, #dbc212, #ebd70a, #f9ee00);
+    background-image: linear-gradient(to top, #000000, #110f11, #19191d, #1e2329, #202e33, #2b3b3f, #37484b, #445557, #5b686c, #737b81, #8c9094, #a4a5a8);
     font-family: "Arial Black";
 }
 #rep1,#rep2,#rep3,#rep4{
@@ -9,10 +9,13 @@ body{
     padding-left: 2%;
     width: 40%;
     height: 50px;
-    display: inline-block;
+    display: block;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 30%;
+    background-color: black;
+    color: #c4e7c6;
+    border-radius: 5px;
 }
 #question{
     margin-top: 5%;
@@ -20,14 +23,20 @@ body{
     width: 100%;
     height: 70px;
     text-align: center;
+    background-color: black;
+    color: #b6d5a6;
+    border-radius: 4%;
 }
 header{
     text-align: center;
+    font-size: 10vh;
+    color: #c4e7c6;
+
 
 
 }
 #score{
-    height: 900px;
+    height: 600px;
     width: 100%;
     text-align: center;
     padding-top: 20% ;
