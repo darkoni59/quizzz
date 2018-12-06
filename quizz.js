@@ -7,7 +7,7 @@ var quizz=[{question:"combiens de pattes à un chat?",value:"4 pas sur",rep1:"2,
     {question:"dans quel film arnold schwarzenegger a t'il jouer?",value:"total recall",rep1:"la guerre des mondes",rep2:"pearl arbor",rep3:"titanic",rep4:"total recall"},
     {question:"quel et la 1er oeuvre de Osamu tezuka",value:"le roi leo",rep1:"black jack",rep2:"le roi leo",rep3:"astro-boy",rep4:"albator"},
     {question:"quel etait le 1er nom donner à la gamecube",value:"Dolphin",rep1:"la nintendo128",rep2:"the cube",rep3:"la dolphine",rep4:"la nintendo super"},
-    {question:"comment son representer les français",value:"baguette+vin",rep1:"baguette+vin",rep2:"raquette+balle",rep3:"mangeur de frommage",rep4:"bha en gilet jaune"}];
+    {question:"comment son representer les français",value:"baguette+vin",rep1:"baguette+vin",rep2:"raquette+balle",rep3:"mangeur de frommage",rep4:" en gilet jaune"}];
 var scoreU=[];
 var score=0;
 var i=0;

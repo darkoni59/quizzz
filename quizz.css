@@ -13,7 +13,7 @@ body{
     text-align: center;
     margin-top: 3%;
     margin-left: 30%;
-    background-color: black;
+    background-color: #000000;
     color: #c4e7c6;
     border-radius: 5px;
 }
@@ -29,17 +29,18 @@ body{
 }
 header{
     text-align: center;
-    font-size: 10vh;
+    font-size: 5vh;
     color: #c4e7c6;
 
 
 
 }
 #score{
-    height: 600px;
+    height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 20% ;
+    padding-top: 10% ;
+    color: #c4e7c6;
 
 }
 
