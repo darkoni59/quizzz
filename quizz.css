@@ -1,14 +1,15 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(to top, #000000, #110f11, #19191d, #1e2329, #202e33, #2b3b3f, #37484b, #445557, #5b686c, #737b81, #8c9094, #a4a5a8);
+  background-color:blue;
     font-family: "Arial Black";
+    background-size: 90%;
 }
 #rep1,#rep2,#rep3,#rep4{
     border: solid black;
     padding-left: 2%;
     width: 40%;
-    height: 50px;
+    height: 6vh;
     display: block;
     text-align: center;
     margin-top: 3%;
@@ -16,6 +17,7 @@ body{
     background-color: #000000;
     color: #c4e7c6;
     border-radius: 5px;
+    font-size: 2vh;
 }
 #question{
     margin-top: 5%;
@@ -26,24 +28,123 @@ body{
     background-color: black;
     color: #b6d5a6;
     border-radius: 4%;
+    font-size: 2vh;
 }
 header{
     text-align: center;
-    font-size: 5vh;
-    color: #c4e7c6;
+    font-size: 6vh;
+
+    color: black;
 
 
 
 }
 #score{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     text-align: center;
-    padding-top: 10% ;
     color: #c4e7c6;
+    display: none;
+    font-size: 3vh;
 
 }
+span{
+    border: solid black;
+    color: #c4e7c6;
+    background-color: black;
+}
+#quizz{
+    height: 100vh;
+}
+@media (max-width: 700px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+    body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+    img,
+    table,
+    td,
+    blockquote,
+    code,
+    pre,
+    textarea,
+    input,
+    iframe,
+    object,
+    embed,
+    video {
+        max-width: 100%;
+    }
+
+    /* conserver le ratio des images */
+
+    img {
+        height: auto;
+    }
+
+    /* gestion des mots longs */
+
+    textarea,
+    table,
+    td,
+    th,
+    code,
+    pre,
+    samp {
+        -webkit-hyphens: auto; /* césure propre */
+        -moz-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word; /* passage à la ligne forcé */
+    }
+
+    code,
+    pre,
+    samp {
+        white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+    .element1,
+    .element2 {
+        float: none;
+        width: auto;
+    }
+
+    /* masquer les éléments superflus */
+
+    .hide_mobile {
+        display: none !important;
+    }
+
+    /* Un message personnalisé */
+
+    body:before {
+        content: "Version mobile du site";
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color: #777;
+    }
+}
+#test{
+    position: relative;
+color: #c4e7c6;
+    text-align: center;
+
+    color: lime;
+    font-size: 2.1vh;
 
 
 
-
+}
